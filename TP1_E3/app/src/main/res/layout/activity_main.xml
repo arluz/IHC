@@ -1,0 +1,66 @@
+<!-- res/layout/activity_main.xml
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="X"
+        android:layout_marginTop="54dp"/>
+
+    <EditText
+        android:id="@+id/editTextMessage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Y"
+        android:layout_marginTop="114dp"/>
+
+    <EditText
+        android:id="@+id/editTextMessage3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="174dp"
+        android:hint="Z" />
+
+</RelativeLayout> -->
+
+    <!-- res/layout/activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<EditText
+    android:id="@+id/editTextX"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:hint="Valor X do Acelerômetro"
+    android:inputType="none"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"/>
+
+<EditText
+    android:id="@+id/editTextY"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextX"
+    android:layout_marginTop="16dp"
+    android:hint="Valor Y do Acelerômetro"
+    android:inputType="none"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"/>
+
+<EditText
+    android:id="@+id/editTextZ"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/editTextY"
+    android:layout_marginTop="16dp"
+    android:hint="Valor Z do Acelerômetro"
+    android:inputType="none"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>
